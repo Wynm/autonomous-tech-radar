@@ -2,14 +2,14 @@ name: Autonomous Tech Radar Autopilot
 
 on:
   schedule:
-    # كل 6 ساعات
+    # كل 6 ساعات (الوضع العادي)
     - cron: '0 */6 * * *'
     # التقرير الأسبوعي يوم الجمعة الساعة 18:00 UTC
     - cron: '0 18 * * 5'
   workflow_dispatch:
     inputs:
       mode:
-        description: 'اختر وضع التشغيل (normal = الرائج والقفزات | full = شامل بدون فلترة | weekly = التقرير الأسبوعي)'
+        description: 'اختر وضع التشغيل'
         required: true
         default: 'normal'
         type: choice
@@ -20,6 +20,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
 concurrency:
   group: radar-autopilot
@@ -28,47 +29,86 @@ concurrency:
 jobs:
   run-radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 50
     steps:
-      - name: سحب ملفات النظام
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # مهم جداً حتى ينجح git push لاحقاً
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+          fetch-depth: 0
 
-      - name: إعداد بيئة Python
+      - name: Setup Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: تثبيت git (للمختبر الحي)
+      - name: Verify radar_engine.py exists
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq git
+          if [ ! -f radar_engine.py ]; then
+            echo "❌ Error: radar_engine.py not found in repository root"
+            exit 1
+          fi
+          echo "✅ radar_engine.py found"
+          python --version
 
-      - name: تحديد الوضع الفعال وتشغيل المحرك
+      - name: Determine RADAR_MODE and run engine
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT_NAME: ${{ github.event_name }}
           EVENT_SCHEDULE: ${{ github.event.schedule }}
           INPUT_MODE: ${{ github.event.inputs.mode }}
         run: |
-          if [ "$EVENT_SCHEDULE" = "0 18 * * 5" ]; then
-            export RADAR_MODE="weekly"
-          else
-            export RADAR_MODE="${INPUT_MODE:-normal}"
-          fi
-          echo "Running in mode: $RADAR_MODE"
-          python radar_engine.py
+          set -e
 
-      - name: حفظ الذاكرة والتقارير والأصول البرمجية تلقائياً
+          # تحديد الوضع بدقة
+          if [ "$EVENT_NAME" = "schedule" ] && [ "$EVENT_SCHEDULE" = "0 18 * * 5" ]; then
+            export RADAR_MODE="weekly"
+          elif [ -n "$INPUT_MODE" ]; then
+            export RADAR_MODE="$INPUT_MODE"
+          else
+            export RADAR_MODE="normal"
+          fi
+
+          echo "═══════════════════════════════════════"
+          echo "🚀 RADAR_MODE = $RADAR_MODE"
+          echo "📅 Event     = $EVENT_NAME"
+          echo "⏰ Schedule  = ${EVENT_SCHEDULE:-manual}"
+          echo "═══════════════════════════════════════"
+
+          # تشغيل المحرك
+          python radar_engine.py "$RADAR_MODE"
+
+      - name: Commit & push reports / memory / assets
+        if: always()
         run: |
+          set -e
+
           git config --local user.email "autopilot@radar.bot"
           git config --local user.name "TechRadar Bot"
+
           mkdir -p reports assets
-          git add memory.json reports/ assets/ || true
+
+          # أضف فقط الملفات المهمة (لا تُدخل أي ملفات مؤقتة)
+          git add memory.json reports/ assets/ 2>/dev/null || true
+
           if git diff --quiet && git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Auto-update radar reports, memory & MVP assets [$(date -u +%Y-%m-%d_%H:%M)]"
-            git push
+            echo "ℹ️ No changes to commit"
+            exit 0
           fi
+
+          # تجنب التعارض مع أي push سابق
+          git pull --rebase origin main || true
+
+          TIMESTAMP=$(date -u +%Y-%m-%d_%H-%M)
+          git commit -m "🤖 Auto-update radar reports & MVP assets [$TIMESTAMP]" || {
+            echo "Nothing to commit after pull"
+            exit 0
+          }
+
+          git push origin HEAD:main
+          echo "✅ Changes pushed successfully"
