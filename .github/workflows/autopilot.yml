@@ -1,1 +1,74 @@
-PLACEHOLDER
+name: Autonomous Tech Radar Autopilot
+
+on:
+  schedule:
+    # كل 6 ساعات
+    - cron: '0 */6 * * *'
+    # التقرير الأسبوعي يوم الجمعة الساعة 18:00 UTC
+    - cron: '0 18 * * 5'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'اختر وضع التشغيل (normal = الرائج والقفزات | full = شامل بدون فلترة | weekly = التقرير الأسبوعي)'
+        required: true
+        default: 'normal'
+        type: choice
+        options:
+          - normal
+          - full
+          - weekly
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-autopilot
+  cancel-in-progress: false
+
+jobs:
+  run-radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: سحب ملفات النظام
+        uses: actions/checkout@v4
+
+      - name: إعداد بيئة Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: تثبيت git (للمختبر الحي)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq git
+
+      - name: تحديد الوضع الفعال وتشغيل المحرك
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          INPUT_MODE: ${{ github.event.inputs.mode }}
+        run: |
+          if [ "$EVENT_SCHEDULE" = "0 18 * * 5" ]; then
+            export RADAR_MODE="weekly"
+          else
+            export RADAR_MODE="${INPUT_MODE:-normal}"
+          fi
+          echo "Running in mode: $RADAR_MODE"
+          python radar_engine.py
+
+      - name: حفظ الذاكرة والتقارير والأصول البرمجية تلقائياً
+        run: |
+          git config --local user.email "autopilot@radar.bot"
+          git config --local user.name "TechRadar Bot"
+          mkdir -p reports assets
+          git add memory.json reports/ assets/ || true
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update radar reports, memory & MVP assets [$(date -u +%Y-%m-%d_%H:%M)]"
+            git push
+          fi
