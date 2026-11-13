@@ -33,5 +33,33 @@
     "first_seen": "2026-11-13T15:04:21.229821+00:00",
     "last_seen": "2026-11-13T15:04:21.229821+00:00",
     "breakout_alerted": false
+  },
+  "gh_1455383610": {
+    "title": "lawandrorder/mate",
+    "stars": 135,
+    "first_seen": "2026-11-13T23:27:07.330394+00:00",
+    "last_seen": "2026-11-13T23:27:07.330394+00:00",
+    "breakout_alerted": false
+  },
+  "hn_50488464": {
+    "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+    "stars": 82,
+    "first_seen": "2026-11-13T23:27:07.330394+00:00",
+    "last_seen": "2026-11-13T23:27:07.330394+00:00",
+    "breakout_alerted": false
+  },
+  "lob_akdy9z": {
+    "title": "Terminal borders that don't cost a cell",
+    "stars": 43,
+    "first_seen": "2026-11-13T23:27:07.330394+00:00",
+    "last_seen": "2026-11-13T23:27:07.330394+00:00",
+    "breakout_alerted": false
+  },
+  "devto_4977112": {
+    "title": "Our Looping Factory Cut DEV Page Load Time by 75% and Counting",
+    "stars": 137,
+    "first_seen": "2026-11-13T23:27:07.330394+00:00",
+    "last_seen": "2026-11-13T23:27:07.330394+00:00",
+    "breakout_alerted": false
   }
 }
