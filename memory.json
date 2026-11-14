@@ -89,5 +89,33 @@
     "first_seen": "2026-11-14T05:59:46.662991+00:00",
     "last_seen": "2026-11-14T05:59:46.662991+00:00",
     "breakout_alerted": false
+  },
+  "gh_1456986438": {
+    "title": "zacharyrogue/Crypto-Whale-Tracker",
+    "stars": 143,
+    "first_seen": "2026-11-14T13:24:28.114896+00:00",
+    "last_seen": "2026-11-14T13:24:28.114896+00:00",
+    "breakout_alerted": false
+  },
+  "hn_50484658": {
+    "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+    "stars": 352,
+    "first_seen": "2026-11-14T13:24:28.114896+00:00",
+    "last_seen": "2026-11-14T13:24:28.114896+00:00",
+    "breakout_alerted": false
+  },
+  "lob_xca2qj": {
+    "title": "Probabilistic data structures in Go",
+    "stars": 44,
+    "first_seen": "2026-11-14T13:24:28.114896+00:00",
+    "last_seen": "2026-11-14T13:24:28.114896+00:00",
+    "breakout_alerted": false
+  },
+  "devto_5018815": {
+    "title": "MCP Is Dead Simple. And That's Exactly the Problem",
+    "stars": 152,
+    "first_seen": "2026-11-14T13:24:28.114896+00:00",
+    "last_seen": "2026-11-14T13:24:28.114896+00:00",
+    "breakout_alerted": false
   }
 }
