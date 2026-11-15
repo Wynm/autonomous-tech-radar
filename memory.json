@@ -152,5 +152,47 @@
     "first_seen": "2026-11-14T22:14:29.901650+00:00",
     "last_seen": "2026-11-14T22:14:29.901650+00:00",
     "breakout_alerted": false
+  },
+  "gh_1457686240": {
+    "title": "DaggerRuthlesscrystal981/dat-metadata-standard-resp",
+    "stars": 50,
+    "first_seen": "2026-11-15T06:04:09.765556+00:00",
+    "last_seen": "2026-11-15T06:04:09.765556+00:00",
+    "breakout_alerted": false
+  },
+  "gh_1454737824": {
+    "title": "jackson-cmd/risk-aware-trading-agents",
+    "stars": 140,
+    "first_seen": "2026-11-15T06:04:09.765556+00:00",
+    "last_seen": "2026-11-15T06:04:09.765556+00:00",
+    "breakout_alerted": false
+  },
+  "hn_50441444": {
+    "title": "Generative AI uses more energy on non-English text",
+    "stars": 196,
+    "first_seen": "2026-11-15T06:04:09.765556+00:00",
+    "last_seen": "2026-11-15T06:04:09.765556+00:00",
+    "breakout_alerted": false
+  },
+  "hf_2611.08318": {
+    "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+    "stars": 20,
+    "first_seen": "2026-11-15T06:04:09.765556+00:00",
+    "last_seen": "2026-11-15T06:04:09.765556+00:00",
+    "breakout_alerted": false
+  },
+  "lob_w9j7xs": {
+    "title": "25 of my favourite modern NES games",
+    "stars": 9,
+    "first_seen": "2026-11-15T06:04:09.765556+00:00",
+    "last_seen": "2026-11-15T06:04:09.765556+00:00",
+    "breakout_alerted": false
+  },
+  "devto_4999883": {
+    "title": "How much does it cost to run a text game with LLMs",
+    "stars": 85,
+    "first_seen": "2026-11-15T06:04:09.765556+00:00",
+    "last_seen": "2026-11-15T06:04:09.765556+00:00",
+    "breakout_alerted": false
   }
 }
