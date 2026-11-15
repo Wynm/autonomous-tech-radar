@@ -194,5 +194,33 @@
     "first_seen": "2026-11-15T06:04:09.765556+00:00",
     "last_seen": "2026-11-15T06:04:09.765556+00:00",
     "breakout_alerted": false
+  },
+  "gh_1454407753": {
+    "title": "zacharias80/Polymarket-Prediction-Bot",
+    "stars": 92,
+    "first_seen": "2026-11-15T18:43:47.968290+00:00",
+    "last_seen": "2026-11-15T18:43:47.968290+00:00",
+    "breakout_alerted": false
+  },
+  "hn_50507303": {
+    "title": "All AI-generated code should be Open Source",
+    "stars": 663,
+    "first_seen": "2026-11-15T18:43:47.968290+00:00",
+    "last_seen": "2026-11-15T18:43:47.968290+00:00",
+    "breakout_alerted": false
+  },
+  "lob_vdxevp": {
+    "title": "Memory management in 40 major C projects, a survey",
+    "stars": 26,
+    "first_seen": "2026-11-15T18:43:47.968290+00:00",
+    "last_seen": "2026-11-15T18:43:47.968290+00:00",
+    "breakout_alerted": false
+  },
+  "devto_5015589": {
+    "title": "We Keep Hearing About AI Productivity. The QA Group Chat Told a Different Story.",
+    "stars": 111,
+    "first_seen": "2026-11-15T18:43:47.968290+00:00",
+    "last_seen": "2026-11-15T18:43:47.968290+00:00",
+    "breakout_alerted": false
   }
 }
