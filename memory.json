@@ -257,5 +257,40 @@
     "first_seen": "2026-11-16T06:03:30.376575+00:00",
     "last_seen": "2026-11-16T06:03:30.376575+00:00",
     "breakout_alerted": false
+  },
+  "gh_1451185654": {
+    "title": "Grimemperorcove/tf2-resp-express",
+    "stars": 50,
+    "first_seen": "2026-11-16T21:55:00.954566+00:00",
+    "last_seen": "2026-11-16T21:55:00.954566+00:00",
+    "breakout_alerted": false
+  },
+  "hn_50520804": {
+    "title": "OpenAI: Strengthening the fight against online child sexual abuse",
+    "stars": 71,
+    "first_seen": "2026-11-16T21:55:00.954566+00:00",
+    "last_seen": "2026-11-16T21:55:00.954566+00:00",
+    "breakout_alerted": false
+  },
+  "hf_2611.17878": {
+    "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+    "stars": 20,
+    "first_seen": "2026-11-16T21:55:00.954566+00:00",
+    "last_seen": "2026-11-16T21:55:00.954566+00:00",
+    "breakout_alerted": false
+  },
+  "lob_rhoopo": {
+    "title": "Migrating from GitHub to Codeberg",
+    "stars": 62,
+    "first_seen": "2026-11-16T21:55:00.954566+00:00",
+    "last_seen": "2026-11-16T21:55:00.954566+00:00",
+    "breakout_alerted": false
+  },
+  "devto_5039203": {
+    "title": "Ghost Rovers: I Called 12 Machines NASA Left Behind. One Picked Up.",
+    "stars": 56,
+    "first_seen": "2026-11-16T21:55:00.954566+00:00",
+    "last_seen": "2026-11-16T21:55:00.954566+00:00",
+    "breakout_alerted": false
   }
 }
