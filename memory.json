@@ -222,5 +222,40 @@
     "first_seen": "2026-11-15T18:43:47.968290+00:00",
     "last_seen": "2026-11-15T18:43:47.968290+00:00",
     "breakout_alerted": false
+  },
+  "gh_1458995234": {
+    "title": "centaurexecutorhonor/metatrader-ea-notes",
+    "stars": 99,
+    "first_seen": "2026-11-16T06:03:30.376575+00:00",
+    "last_seen": "2026-11-16T06:03:30.376575+00:00",
+    "breakout_alerted": false
+  },
+  "hn_50512441": {
+    "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+    "stars": 100,
+    "first_seen": "2026-11-16T06:03:30.376575+00:00",
+    "last_seen": "2026-11-16T06:03:30.376575+00:00",
+    "breakout_alerted": false
+  },
+  "hf_2611.18397": {
+    "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+    "stars": 24,
+    "first_seen": "2026-11-16T06:03:30.376575+00:00",
+    "last_seen": "2026-11-16T06:03:30.376575+00:00",
+    "breakout_alerted": false
+  },
+  "lob_dxxvek": {
+    "title": "A datetime library for Rust",
+    "stars": 48,
+    "first_seen": "2026-11-16T06:03:30.376575+00:00",
+    "last_seen": "2026-11-16T06:03:30.376575+00:00",
+    "breakout_alerted": false
+  },
+  "devto_4982713": {
+    "title": "Ask More of Your UI",
+    "stars": 58,
+    "first_seen": "2026-11-16T06:03:30.376575+00:00",
+    "last_seen": "2026-11-16T06:03:30.376575+00:00",
+    "breakout_alerted": false
   }
 }
