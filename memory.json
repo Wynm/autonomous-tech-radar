@@ -292,5 +292,26 @@
     "first_seen": "2026-11-16T21:55:00.954566+00:00",
     "last_seen": "2026-11-16T21:55:00.954566+00:00",
     "breakout_alerted": false
+  },
+  "hn_50524736": {
+    "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+    "stars": 519,
+    "first_seen": "2026-11-17T07:40:45.348426+00:00",
+    "last_seen": "2026-11-17T07:40:45.348426+00:00",
+    "breakout_alerted": false
+  },
+  "hf_2611.21003": {
+    "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+    "stars": 30,
+    "first_seen": "2026-11-17T07:40:45.348426+00:00",
+    "last_seen": "2026-11-17T07:40:45.348426+00:00",
+    "breakout_alerted": false
+  },
+  "devto_5020733": {
+    "title": "Ultimate AI Roast! 😂😹",
+    "stars": 97,
+    "first_seen": "2026-11-17T07:40:45.348426+00:00",
+    "last_seen": "2026-11-17T07:40:45.348426+00:00",
+    "breakout_alerted": false
   }
 }
