@@ -341,5 +341,40 @@
     "first_seen": "2026-11-17T20:45:36.440713+00:00",
     "last_seen": "2026-11-17T20:45:36.440713+00:00",
     "breakout_alerted": false
+  },
+  "gh_1459170615": {
+    "title": "Chairul30/binance-trading-bot",
+    "stars": 153,
+    "first_seen": "2026-11-18T07:02:49.903867+00:00",
+    "last_seen": "2026-11-18T07:02:49.903867+00:00",
+    "breakout_alerted": false
+  },
+  "hn_50540178": {
+    "title": "Google's AI answers reducing search traffic by 40%",
+    "stars": 293,
+    "first_seen": "2026-11-18T07:02:49.903867+00:00",
+    "last_seen": "2026-11-18T07:02:49.903867+00:00",
+    "breakout_alerted": false
+  },
+  "hf_2611.17621": {
+    "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+    "stars": 81,
+    "first_seen": "2026-11-18T07:02:49.903867+00:00",
+    "last_seen": "2026-11-18T07:02:49.903867+00:00",
+    "breakout_alerted": false
+  },
+  "lob_g0bf9i": {
+    "title": "Java4Shell: Write once, RCE everywhere",
+    "stars": 30,
+    "first_seen": "2026-11-18T07:02:49.903867+00:00",
+    "last_seen": "2026-11-18T07:02:49.903867+00:00",
+    "breakout_alerted": false
+  },
+  "devto_5012297": {
+    "title": "DEVengers Weekly #1: The MCP Reality Check, Career Moats, and 25 Weeks on the Radar 🚀",
+    "stars": 55,
+    "first_seen": "2026-11-18T07:02:49.903867+00:00",
+    "last_seen": "2026-11-18T07:02:49.903867+00:00",
+    "breakout_alerted": false
   }
 }
