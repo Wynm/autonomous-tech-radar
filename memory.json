@@ -425,5 +425,40 @@
     "first_seen": "2026-11-19T07:03:32.608737+00:00",
     "last_seen": "2026-11-19T07:03:32.608737+00:00",
     "breakout_alerted": false
+  },
+  "gh_1459211397": {
+    "title": "MikeCasallas/poe2-price-checker",
+    "stars": 153,
+    "first_seen": "2026-11-19T20:25:25.522027+00:00",
+    "last_seen": "2026-11-19T20:25:25.522027+00:00",
+    "breakout_alerted": false
+  },
+  "hn_50562320": {
+    "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+    "stars": 54,
+    "first_seen": "2026-11-19T20:25:25.522027+00:00",
+    "last_seen": "2026-11-19T20:25:25.522027+00:00",
+    "breakout_alerted": false
+  },
+  "hf_2611.17600": {
+    "title": "LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning",
+    "stars": 20,
+    "first_seen": "2026-11-19T20:25:25.522027+00:00",
+    "last_seen": "2026-11-19T20:25:25.522027+00:00",
+    "breakout_alerted": false
+  },
+  "lob_qsrnot": {
+    "title": "Design for Understandability",
+    "stars": 22,
+    "first_seen": "2026-11-19T20:25:25.522027+00:00",
+    "last_seen": "2026-11-19T20:25:25.522027+00:00",
+    "breakout_alerted": false
+  },
+  "devto_5004164": {
+    "title": "AI Avatar v28 (Security Support, Voxel Avatar)🛡️",
+    "stars": 71,
+    "first_seen": "2026-11-19T20:25:25.522027+00:00",
+    "last_seen": "2026-11-19T20:25:25.522027+00:00",
+    "breakout_alerted": false
   }
 }
