@@ -460,5 +460,33 @@
     "first_seen": "2026-11-19T20:25:25.522027+00:00",
     "last_seen": "2026-11-19T20:25:25.522027+00:00",
     "breakout_alerted": false
+  },
+  "gh_1459217349": {
+    "title": "shani-hamer/riverse-ai-agent",
+    "stars": 153,
+    "first_seen": "2026-11-20T06:55:59.320790+00:00",
+    "last_seen": "2026-11-20T06:55:59.320790+00:00",
+    "breakout_alerted": false
+  },
+  "hn_50570479": {
+    "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+    "stars": 178,
+    "first_seen": "2026-11-20T06:55:59.320790+00:00",
+    "last_seen": "2026-11-20T06:55:59.320790+00:00",
+    "breakout_alerted": false
+  },
+  "lob_pqyuhk": {
+    "title": "PostgreSQL 19 Released",
+    "stars": 64,
+    "first_seen": "2026-11-20T06:55:59.320790+00:00",
+    "last_seen": "2026-11-20T06:55:59.320790+00:00",
+    "breakout_alerted": false
+  },
+  "devto_5069884": {
+    "title": "Stratagems #36: They Finished Their Coffee. The AI Still Has No Answer.",
+    "stars": 101,
+    "first_seen": "2026-11-20T06:55:59.320790+00:00",
+    "last_seen": "2026-11-20T06:55:59.320790+00:00",
+    "breakout_alerted": false
   }
 }
