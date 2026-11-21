@@ -551,5 +551,26 @@
     "first_seen": "2026-11-21T06:50:42.895647+00:00",
     "last_seen": "2026-11-21T06:50:42.895647+00:00",
     "breakout_alerted": false
+  },
+  "hn_50546587": {
+    "title": "LLMs can read and write executables byte by byte from a hex dump",
+    "stars": 113,
+    "first_seen": "2026-11-21T19:01:48.090026+00:00",
+    "last_seen": "2026-11-21T19:01:48.090026+00:00",
+    "breakout_alerted": false
+  },
+  "lob_qzerls": {
+    "title": "My Monitor Was Cutting My Download Speed by 75%",
+    "stars": 46,
+    "first_seen": "2026-11-21T19:01:48.090026+00:00",
+    "last_seen": "2026-11-21T19:01:48.090026+00:00",
+    "breakout_alerted": false
+  },
+  "devto_5015822": {
+    "title": "Could I Still Do This From Scratch?",
+    "stars": 77,
+    "first_seen": "2026-11-21T19:01:48.090026+00:00",
+    "last_seen": "2026-11-21T19:01:48.090026+00:00",
+    "breakout_alerted": false
   }
 }
