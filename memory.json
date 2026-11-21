@@ -523,5 +523,33 @@
     "first_seen": "2026-11-20T19:55:55.046950+00:00",
     "last_seen": "2026-11-20T19:55:55.046950+00:00",
     "breakout_alerted": false
+  },
+  "gh_1462895937": {
+    "title": "pgmergulhao75-dot/openbb-calvona-market-research",
+    "stars": 152,
+    "first_seen": "2026-11-21T06:50:42.895647+00:00",
+    "last_seen": "2026-11-21T06:50:42.895647+00:00",
+    "breakout_alerted": false
+  },
+  "hn_50583274": {
+    "title": "NINLIVE: The Nine Inch Nails live archive",
+    "stars": 211,
+    "first_seen": "2026-11-21T06:50:42.895647+00:00",
+    "last_seen": "2026-11-21T06:50:42.895647+00:00",
+    "breakout_alerted": false
+  },
+  "lob_kkglbw": {
+    "title": "Vim Classic 8.3.1 released",
+    "stars": 57,
+    "first_seen": "2026-11-21T06:50:42.895647+00:00",
+    "last_seen": "2026-11-21T06:50:42.895647+00:00",
+    "breakout_alerted": false
+  },
+  "devto_5047522": {
+    "title": "Why I Rewrote type-tune from TypeScript to Rust 🦀",
+    "stars": 108,
+    "first_seen": "2026-11-21T06:50:42.895647+00:00",
+    "last_seen": "2026-11-21T06:50:42.895647+00:00",
+    "breakout_alerted": false
   }
 }
