@@ -761,5 +761,33 @@
     "first_seen": "2026-11-24T22:16:04.660034+00:00",
     "last_seen": "2026-11-24T22:16:04.660034+00:00",
     "breakout_alerted": false
+  },
+  "gh_1470880509": {
+    "title": "MikhailMa649/polymarket-trading-bot-clob-arbitrage",
+    "stars": 208,
+    "first_seen": "2026-11-25T08:09:05.352557+00:00",
+    "last_seen": "2026-11-25T08:09:05.352557+00:00",
+    "breakout_alerted": false
+  },
+  "hn_50638220": {
+    "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+    "stars": 87,
+    "first_seen": "2026-11-25T08:09:05.352557+00:00",
+    "last_seen": "2026-11-25T08:09:05.352557+00:00",
+    "breakout_alerted": false
+  },
+  "hf_2611.32884": {
+    "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+    "stars": 21,
+    "first_seen": "2026-11-25T08:09:05.352557+00:00",
+    "last_seen": "2026-11-25T08:09:05.352557+00:00",
+    "breakout_alerted": false
+  },
+  "lob_em9zdb": {
+    "title": "Pokemon Childhood Version: A romhack where Mew is under the truck",
+    "stars": 32,
+    "first_seen": "2026-11-25T08:09:05.352557+00:00",
+    "last_seen": "2026-11-25T08:09:05.352557+00:00",
+    "breakout_alerted": false
   }
 }
