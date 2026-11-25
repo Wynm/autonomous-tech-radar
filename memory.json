@@ -789,5 +789,40 @@
     "first_seen": "2026-11-25T08:09:05.352557+00:00",
     "last_seen": "2026-11-25T08:09:05.352557+00:00",
     "breakout_alerted": false
+  },
+  "gh_1469958198": {
+    "title": "pinargomez/raydium-meteora-grpc-sniper-bot",
+    "stars": 167,
+    "first_seen": "2026-11-25T21:32:56.138442+00:00",
+    "last_seen": "2026-11-25T21:32:56.138442+00:00",
+    "breakout_alerted": false
+  },
+  "hn_50624446": {
+    "title": "Porting Rockbox to an undocumented $9 AliExpress 'YP3' MP3 player with LLMs",
+    "stars": 170,
+    "first_seen": "2026-11-25T21:32:56.138442+00:00",
+    "last_seen": "2026-11-25T21:32:56.138442+00:00",
+    "breakout_alerted": false
+  },
+  "hf_2611.31358": {
+    "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+    "stars": 80,
+    "first_seen": "2026-11-25T21:32:56.138442+00:00",
+    "last_seen": "2026-11-25T21:32:56.138442+00:00",
+    "breakout_alerted": false
+  },
+  "lob_srb0dp": {
+    "title": "Marginalia Search, Money, C++, Rust, AI, stuff",
+    "stars": 90,
+    "first_seen": "2026-11-25T21:32:56.138442+00:00",
+    "last_seen": "2026-11-25T21:32:56.138442+00:00",
+    "breakout_alerted": false
+  },
+  "devto_5036802": {
+    "title": "Dead Keys: I Brought Back the Typing Games. Kiro Did the Heavy Lifting.",
+    "stars": 88,
+    "first_seen": "2026-11-25T21:32:56.138442+00:00",
+    "last_seen": "2026-11-25T21:32:56.138442+00:00",
+    "breakout_alerted": false
   }
 }
