@@ -929,5 +929,40 @@
     "first_seen": "2026-11-27T07:59:16.240252+00:00",
     "last_seen": "2026-11-27T07:59:16.240252+00:00",
     "breakout_alerted": false
+  },
+  "gh_1474626928": {
+    "title": "gkshitij299-ship-it/polymarket-trading-arbitrage-bot-desalan",
+    "stars": 153,
+    "first_seen": "2026-11-27T21:01:38.815835+00:00",
+    "last_seen": "2026-11-27T21:01:38.815835+00:00",
+    "breakout_alerted": false
+  },
+  "hn_50663595": {
+    "title": "Group chat where your AI talks behind your back",
+    "stars": 633,
+    "first_seen": "2026-11-27T21:01:38.815835+00:00",
+    "last_seen": "2026-11-27T21:01:38.815835+00:00",
+    "breakout_alerted": false
+  },
+  "hf_2611.34232": {
+    "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+    "stars": 101,
+    "first_seen": "2026-11-27T21:01:38.815835+00:00",
+    "last_seen": "2026-11-27T21:01:38.815835+00:00",
+    "breakout_alerted": false
+  },
+  "lob_mbm7xw": {
+    "title": "Tiny Hat: a new Linux distro dedicated to retro gamedev",
+    "stars": 40,
+    "first_seen": "2026-11-27T21:01:38.815835+00:00",
+    "last_seen": "2026-11-27T21:01:38.815835+00:00",
+    "breakout_alerted": false
+  },
+  "devto_5120802": {
+    "title": "I Built AI Test Automation. Today, I Went Back to Manual Testing.",
+    "stars": 99,
+    "first_seen": "2026-11-27T21:01:38.815835+00:00",
+    "last_seen": "2026-11-27T21:01:38.815835+00:00",
+    "breakout_alerted": false
   }
 }
