@@ -964,5 +964,33 @@
     "first_seen": "2026-11-27T21:01:38.815835+00:00",
     "last_seen": "2026-11-27T21:01:38.815835+00:00",
     "breakout_alerted": false
+  },
+  "gh_1475051984": {
+    "title": "adrianpanagiotou/hyperliquid-trading-bot",
+    "stars": 266,
+    "first_seen": "2026-11-28T07:28:44.429357+00:00",
+    "last_seen": "2026-11-28T07:28:44.429357+00:00",
+    "breakout_alerted": false
+  },
+  "hn_50673521": {
+    "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+    "stars": 153,
+    "first_seen": "2026-11-28T07:28:44.429357+00:00",
+    "last_seen": "2026-11-28T07:28:44.429357+00:00",
+    "breakout_alerted": false
+  },
+  "lob_96gu7o": {
+    "title": "Hard Drive pricing has gotten bad",
+    "stars": 44,
+    "first_seen": "2026-11-28T07:28:44.429357+00:00",
+    "last_seen": "2026-11-28T07:28:44.429357+00:00",
+    "breakout_alerted": false
+  },
+  "devto_5103474": {
+    "title": "Why Your AI Release Notes Hallucinate: The \"Why vs What\" Problem in Git History",
+    "stars": 62,
+    "first_seen": "2026-11-28T07:28:44.429357+00:00",
+    "last_seen": "2026-11-28T07:28:44.429357+00:00",
+    "breakout_alerted": false
   }
 }
